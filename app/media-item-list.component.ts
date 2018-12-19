@@ -9,7 +9,7 @@ export class MediaItemListComponent {
 
   onMediaItemDelete(mediaItem) { }
 
-  mediaItems = [
+  mediaItemList = [
     {
       id: 1,
       name: "Firebug",
@@ -51,6 +51,14 @@ export class MediaItemListComponent {
       year: 2015,
       watchedOn: 1457166565384,
       isFavorite: false
-    }
-  ];
+    }, {
+    id: 6,
+    name: "Quacky Duck",
+    medium: "Movies",
+    category: "Animated",
+    year: 1939,
+    watchedOn: null,
+    isFavorite: true
+  }
+];
 }
